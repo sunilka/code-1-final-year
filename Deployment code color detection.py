@@ -3,17 +3,6 @@ from scipy import spatial
 
 
 
-# TODO: define function for use in Algorithmia.com or other API:
-#def find_nearest_vector(array, value):
-#  # http://docs.scipy.org/doc/numpy/reference/generated/numpy.linalg.norm.html
-#  idx = np.array([np.linalg.norm(x+y) for (x,y,z) in array-value]).argmin()
-#  return array[idx]
-
-# NO import importlib & import_module('rgbcsv2rgbarray.py.txt') to avoid external dependencies.
-#moduleName='rgbcsv2rgbarray.py.txt'
-# mport_module(moduleName) 
-#### Paste in contents of rgb_combined_v01.csv.txt below: ###
-# 2016-08-31-07:53 (local time) rgbcsv2rgbarray.py START: outrowcount=570.
 RGB = np.array([ \
  [0,0,0] \
 ,[0,0,128] \
